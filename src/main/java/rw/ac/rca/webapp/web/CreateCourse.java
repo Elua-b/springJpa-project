@@ -44,14 +44,16 @@ public class CreateCourse extends HttpServlet {
                     Course course = new Course();
                     String courseName = request.getParameter("coursename");
                     int minStudent = Integer.parseInt(request.getParameter("minStudent"));
-                    int maxStudent = Integer.parseInt(request.getParameter("minStudent"));
+                    int maxStudent = Integer.parseInt(request.getParameter("maxStudent"));
                     String dateIn = request.getParameter("startDate");
                     String dateEnd = request.getParameter("endDate");
+                    String courseCode = request.getParameter("code");
                     String isCancelled = request.getParameter("isCancelled");
                     try {
                         course.setMinStudent(minStudent);
                         course.setMaxStudent(maxStudent);
                         course.setName(courseName);
+                        course.setCode(courseCode);
                         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
                         try {
                             Date date1 = dateFormat.parse(dateIn);
