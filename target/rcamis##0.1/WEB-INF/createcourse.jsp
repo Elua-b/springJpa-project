@@ -21,7 +21,7 @@
     <c:if test="${message != null}">
         <fieldset>
             <h3>
-                <span style="color: red"class="flex items-center justify-center " > ${message}</span>
+                <span style="color: red" class="flex items-center justify-center " > ${message}</span>
             </h3>
         </fieldset>
     </c:if>
