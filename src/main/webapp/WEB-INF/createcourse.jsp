@@ -14,13 +14,14 @@
             name="title" value="Create Course"/>
 </jsp:include>
 <div class="bg-white w-full  mt-20 p-2 mt-4 ">
+
     <h2 class="text-center text-xl font-semibold text-blue-500">
         <b>Enter Course Details</b>
     </h2>
     <c:if test="${message != null}">
         <fieldset>
             <h3>
-                <span style="color: red"class="flex items-center justify-center " > ${message}</span>
+                <span style="color: red" class="flex items-center justify-center " > ${message}</span>
             </h3>
         </fieldset>
     </c:if>

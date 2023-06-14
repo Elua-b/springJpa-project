@@ -10,7 +10,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
-    <description>RCA Management Information System is a Software Developed by Aphrodice Rwagaju for the Purpose of Teaching Software Development and Design for year two students in RCA</description>
+    <description>RCA Management Information System is a Software Developed by BUGINGO Elua for the Purpose of Teaching Software Development and Design for year two students in RCA</description>
     <build>
         <finalName>rcamis##0.1</finalName>
         <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
@@ -214,8 +214,8 @@
     </dependencies>
     <developers>
         <developer>
-            <name>Jazzy Bruno</name>
-            <email>jazzybruno45@gmail.com</email>
+            <name>BUGINGO Elua</name>
+            <email>bugingoeloi@gmail.com</email>
             <roles>
                 <role>Software Programming Student</role>
             </roles>
